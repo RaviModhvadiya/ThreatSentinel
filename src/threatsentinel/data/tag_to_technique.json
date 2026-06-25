@@ -1,0 +1,166 @@
+{
+  "tor": [
+    {"technique_id": "T1090.003", "name": "Multi-hop Proxy", "tactic": "Command & Control", "confidence": 0.92}
+  ],
+  "tor-exit": [
+    {"technique_id": "T1090.003", "name": "Multi-hop Proxy", "tactic": "Command & Control", "confidence": 0.92},
+    {"technique_id": "T1090", "name": "Proxy", "tactic": "Command & Control", "confidence": 0.80}
+  ],
+  "proxy": [
+    {"technique_id": "T1090", "name": "Proxy", "tactic": "Command & Control", "confidence": 0.75}
+  ],
+  "phishing": [
+    {"technique_id": "T1566", "name": "Phishing", "tactic": "Initial Access", "confidence": 0.90},
+    {"technique_id": "T1566.002", "name": "Spearphishing Link", "tactic": "Initial Access", "confidence": 0.85}
+  ],
+  "phishing-site": [
+    {"technique_id": "T1566.002", "name": "Spearphishing Link", "tactic": "Initial Access", "confidence": 0.90}
+  ],
+  "credential-harvesting": [
+    {"technique_id": "T1056.003", "name": "Web Portal Capture", "tactic": "Collection", "confidence": 0.85},
+    {"technique_id": "T1566.002", "name": "Spearphishing Link", "tactic": "Initial Access", "confidence": 0.75}
+  ],
+  "c2": [
+    {"technique_id": "T1071.001", "name": "Web Protocols", "tactic": "Command & Control", "confidence": 0.88},
+    {"technique_id": "T1071", "name": "Application Layer Protocol", "tactic": "Command & Control", "confidence": 0.80}
+  ],
+  "command-and-control": [
+    {"technique_id": "T1071.001", "name": "Web Protocols", "tactic": "Command & Control", "confidence": 0.88}
+  ],
+  "brute-force": [
+    {"technique_id": "T1110", "name": "Brute Force", "tactic": "Credential Access", "confidence": 0.90}
+  ],
+  "bruteforce": [
+    {"technique_id": "T1110", "name": "Brute Force", "tactic": "Credential Access", "confidence": 0.90}
+  ],
+  "password-spray": [
+    {"technique_id": "T1110.003", "name": "Password Spraying", "tactic": "Credential Access", "confidence": 0.88}
+  ],
+  "malware": [
+    {"technique_id": "T1204.002", "name": "Malicious File", "tactic": "Execution", "confidence": 0.80},
+    {"technique_id": "T1027", "name": "Obfuscated Files or Information", "tactic": "Defense Evasion", "confidence": 0.65}
+  ],
+  "malware-distribution": [
+    {"technique_id": "T1204.002", "name": "Malicious File", "tactic": "Execution", "confidence": 0.90}
+  ],
+  "dropper": [
+    {"technique_id": "T1204.002", "name": "Malicious File", "tactic": "Execution", "confidence": 0.88}
+  ],
+  "ransomware": [
+    {"technique_id": "T1486", "name": "Data Encrypted for Impact", "tactic": "Impact", "confidence": 0.95},
+    {"technique_id": "T1083", "name": "File and Directory Discovery", "tactic": "Discovery", "confidence": 0.70}
+  ],
+  "cryptominer": [
+    {"technique_id": "T1496", "name": "Resource Hijacking", "tactic": "Impact", "confidence": 0.92}
+  ],
+  "cryptomining": [
+    {"technique_id": "T1496", "name": "Resource Hijacking", "tactic": "Impact", "confidence": 0.92}
+  ],
+  "scanner": [
+    {"technique_id": "T1595", "name": "Active Scanning", "tactic": "Reconnaissance", "confidence": 0.80},
+    {"technique_id": "T1046", "name": "Network Service Discovery", "tactic": "Discovery", "confidence": 0.75}
+  ],
+  "mass-scanner": [
+    {"technique_id": "T1595", "name": "Active Scanning", "tactic": "Reconnaissance", "confidence": 0.85}
+  ],
+  "rdp": [
+    {"technique_id": "T1133", "name": "External Remote Services", "tactic": "Initial Access", "confidence": 0.85},
+    {"technique_id": "T1021.001", "name": "Remote Desktop Protocol", "tactic": "Lateral Movement", "confidence": 0.80}
+  ],
+  "ssh-brute": [
+    {"technique_id": "T1110", "name": "Brute Force", "tactic": "Credential Access", "confidence": 0.90},
+    {"technique_id": "T1021.004", "name": "SSH", "tactic": "Lateral Movement", "confidence": 0.80}
+  ],
+  "dns-tunneling": [
+    {"technique_id": "T1071.004", "name": "DNS", "tactic": "Command & Control", "confidence": 0.90}
+  ],
+  "dga": [
+    {"technique_id": "T1568.002", "name": "Domain Generation Algorithms", "tactic": "Command & Control", "confidence": 0.92}
+  ],
+  "domain-generation": [
+    {"technique_id": "T1568.002", "name": "Domain Generation Algorithms", "tactic": "Command & Control", "confidence": 0.90}
+  ],
+  "exfiltration": [
+    {"technique_id": "T1048", "name": "Exfiltration Over Alternative Protocol", "tactic": "Exfiltration", "confidence": 0.85}
+  ],
+  "data-exfil": [
+    {"technique_id": "T1048", "name": "Exfiltration Over Alternative Protocol", "tactic": "Exfiltration", "confidence": 0.88}
+  ],
+  "packed": [
+    {"technique_id": "T1027", "name": "Obfuscated Files or Information", "tactic": "Defense Evasion", "confidence": 0.80}
+  ],
+  "obfuscated": [
+    {"technique_id": "T1027", "name": "Obfuscated Files or Information", "tactic": "Defense Evasion", "confidence": 0.82}
+  ],
+  "malvertising": [
+    {"technique_id": "T1189", "name": "Drive-by Compromise", "tactic": "Initial Access", "confidence": 0.88}
+  ],
+  "drive-by": [
+    {"technique_id": "T1189", "name": "Drive-by Compromise", "tactic": "Initial Access", "confidence": 0.88}
+  ],
+  "bec": [
+    {"technique_id": "T1534", "name": "Internal Spearphishing", "tactic": "Lateral Movement", "confidence": 0.85},
+    {"technique_id": "T1566.002", "name": "Spearphishing Link", "tactic": "Initial Access", "confidence": 0.80}
+  ],
+  "business-email-compromise": [
+    {"technique_id": "T1534", "name": "Internal Spearphishing", "tactic": "Lateral Movement", "confidence": 0.85}
+  ],
+  "botnet": [
+    {"technique_id": "T1071.001", "name": "Web Protocols", "tactic": "Command & Control", "confidence": 0.80},
+    {"technique_id": "T1105", "name": "Ingress Tool Transfer", "tactic": "Command & Control", "confidence": 0.70}
+  ],
+  "loader": [
+    {"technique_id": "T1105", "name": "Ingress Tool Transfer", "tactic": "Command & Control", "confidence": 0.85},
+    {"technique_id": "T1204.002", "name": "Malicious File", "tactic": "Execution", "confidence": 0.80}
+  ],
+  "infostealer": [
+    {"technique_id": "T1555", "name": "Credentials from Password Stores", "tactic": "Credential Access", "confidence": 0.85},
+    {"technique_id": "T1552", "name": "Unsecured Credentials", "tactic": "Credential Access", "confidence": 0.75}
+  ],
+  "stealer": [
+    {"technique_id": "T1555", "name": "Credentials from Password Stores", "tactic": "Credential Access", "confidence": 0.85}
+  ],
+  "keylogger": [
+    {"technique_id": "T1056.001", "name": "Keylogging", "tactic": "Collection", "confidence": 0.92}
+  ],
+  "spyware": [
+    {"technique_id": "T1056", "name": "Input Capture", "tactic": "Collection", "confidence": 0.80}
+  ],
+  "rootkit": [
+    {"technique_id": "T1014", "name": "Rootkit", "tactic": "Defense Evasion", "confidence": 0.92}
+  ],
+  "exploit": [
+    {"technique_id": "T1190", "name": "Exploit Public-Facing Application", "tactic": "Initial Access", "confidence": 0.85}
+  ],
+  "exploitation": [
+    {"technique_id": "T1190", "name": "Exploit Public-Facing Application", "tactic": "Initial Access", "confidence": 0.85}
+  ],
+  "supply-chain": [
+    {"technique_id": "T1195", "name": "Supply Chain Compromise", "tactic": "Initial Access", "confidence": 0.88}
+  ],
+  "lateral-movement": [
+    {"technique_id": "T1021", "name": "Remote Services", "tactic": "Lateral Movement", "confidence": 0.78}
+  ],
+  "privilege-escalation": [
+    {"technique_id": "T1068", "name": "Exploitation for Privilege Escalation", "tactic": "Privilege Escalation", "confidence": 0.82}
+  ],
+  "persistence": [
+    {"technique_id": "T1053", "name": "Scheduled Task/Job", "tactic": "Persistence", "confidence": 0.75}
+  ],
+  "cobalt-strike": [
+    {"technique_id": "T1071.001", "name": "Web Protocols", "tactic": "Command & Control", "confidence": 0.92},
+    {"technique_id": "T1055", "name": "Process Injection", "tactic": "Defense Evasion", "confidence": 0.85}
+  ],
+  "mimikatz": [
+    {"technique_id": "T1003", "name": "OS Credential Dumping", "tactic": "Credential Access", "confidence": 0.95}
+  ],
+  "sql-injection": [
+    {"technique_id": "T1190", "name": "Exploit Public-Facing Application", "tactic": "Initial Access", "confidence": 0.88}
+  ],
+  "xss": [
+    {"technique_id": "T1189", "name": "Drive-by Compromise", "tactic": "Initial Access", "confidence": 0.75}
+  ],
+  "vpn": [
+    {"technique_id": "T1133", "name": "External Remote Services", "tactic": "Initial Access", "confidence": 0.70}
+  ]
+}
