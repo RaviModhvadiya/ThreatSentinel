@@ -18,7 +18,6 @@ from threatsentinel.logging_config import get_logger
 
 logger = get_logger(__name__)
 
-
 @dataclass
 class SuppressionRule:
     """A single suppression entry from the baseline YAML."""
@@ -27,7 +26,6 @@ class SuppressionRule:
     reason: str = ""
     added_by: str = ""
     added_at: str = ""
-
 
 @dataclass
 class SuppressionBaseline:
